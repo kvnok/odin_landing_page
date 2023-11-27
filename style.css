@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;	
+	background-color: white;
+	min-height: 100vh;
+}
+
+.section {
+	min-width: 100vw;
+	margin: 0;
+}
+
+.one {
+	display: flex;
+	flex: 1;
+	background-color: red;
+}
+
+.two {
+	display: flex;
+	flex: 1;
+	background-color: blue;
+}
+
+.three {
+	display: flex;
+	flex: 1;
+	background-color: green;
+}
+
+.four {
+	display: flex;
+	flex: 1;
+	background-color: yellow;
+}
+
+.five {
+	display: flex;
+	flex: 1;
+	background-color: orange;
+}
+
+.six {
+	display: flex;
+	flex: 1;
+	background-color: purple;
+}
