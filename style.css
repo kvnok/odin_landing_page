@@ -182,6 +182,8 @@ body {
 	/* justify-content: space-evenly; */
 	justify-content: center;
 	align-items: center;
+	margin-left: 20vw;
+	margin-right: 20vw;
 }
 
 .five .holder .left {
@@ -208,3 +210,22 @@ body {
 	justify-content: center;
 	align-content: center;
 }
+
+button {
+	max-width: fit-content;
+	padding: 8px;
+	font-size: 18px;
+	height: fit-content;
+	background-color: darkorange;
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: solid;
+}
+
+/* 
+four different types of fruit:
+	- legumes (beans)
+	- Drupes (stone fruit)
+	- berries
+	- nuts
+*/
