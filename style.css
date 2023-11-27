@@ -15,38 +15,106 @@ body {
 	margin: 0;
 }
 
+/* one */
 .one {
-	display: flex;
-	flex: 1;
 	background-color: red;
+	display: flex;
+	flex-direction: row;
+	flex: 1;
 }
 
-.two {
+.one .left {
+	background-color: coral;
+	flex: 1;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.one .left h3 a {
+	text-decoration: none;
+	color: black;
+}
+
+.one .right {
+	background-color: coral;
 	display: flex;
 	flex: 1;
-	background-color: blue;
+	margin: 10px;
 }
 
+.one .right ul {
+	background-color: pink;
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	list-style-type: none;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 5px;
+	padding: -5px;
+}
+
+.one .right li {
+	margin: 5px;
+	padding: 5px;
+}
+
+/* two */
+.two {
+	background-color: darkblue;
+	display: flex;
+	flex: 1;
+}
+
+.two .holder {
+	background-color: blue;
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	margin: 40px;
+	/* justify-content: space-evenly; */
+	justify-content: center;
+	align-items: center;
+}
+
+.two .holder .left {
+	background-color: cyan;
+}
+
+.two .holder .right {
+	background-color: cyan;
+}
+
+/* three */
 .three {
 	display: flex;
 	flex: 1;
-	background-color: green;
+	background-color: darkgreen;
 }
 
+
+
+/* four */
 .four {
 	display: flex;
 	flex: 1;
-	background-color: yellow;
+	background-color: rgb(51, 49, 49);
 }
 
+/* five */
 .five {
 	display: flex;
 	flex: 1;
-	background-color: orange;
+	background-color: darkorange;
 }
 
+/* six */
 .six {
 	display: flex;
 	flex: 1;
-	background-color: purple;
+	background-color: darkmagenta;
 }
